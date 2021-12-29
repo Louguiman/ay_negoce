@@ -1401,7 +1401,7 @@ progress {
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1500px) {
   .col-lg {
     flex: 1 0 0%;
   }
@@ -12673,7 +12673,7 @@ body {
   padding: 2rem;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
     border-left: 0.5rem solid #64a19d;
@@ -12683,7 +12683,13 @@ body {
 .projects-section .project-text {
   padding: 3rem;
   font-size: 90%;
+  overflow: hidden;
 }
+.projects-section .project-text p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 
 @media (min-width: 992px) {
   .projects-section .project-text {
